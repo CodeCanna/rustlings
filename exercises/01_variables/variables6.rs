@@ -1,5 +1,5 @@
 // TODO: Change the line below to fix the compiler error.
-const NUMBER = 3;
+const NUMBER: u8 = 3; // Constants must have a type.
 
 fn main() {
     println!("Number: {NUMBER}");
